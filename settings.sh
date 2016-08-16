@@ -6,10 +6,10 @@
 # General
 # =======
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "earth"
-sudo scutil --set HostName "earth"
-sudo scutil --set LocalHostName "earth"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "earth"
+sudo scutil --set ComputerName "yokohl"
+sudo scutil --set HostName "yokohl"
+sudo scutil --set LocalHostName "yokohl"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "yokohl"
 
 # Restart automatically if the computer freezes
 sudo systemsetup -setrestartfreeze on
@@ -28,8 +28,8 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 defaults write com.apple.screencapture location "$HOME/Downloads/"
 
 # Bottom right screen corner → Start screen saver
-defaults write com.apple.dock wvous-br-corner -int 5
-defaults write com.apple.dock wvous-br-modifier -int 0
+# defaults write com.apple.dock wvous-br-corner -int 5
+# defaults write com.apple.dock wvous-br-modifier -int 0
 
 # Sound
 # =====
@@ -41,10 +41,10 @@ sudo nvram SystemAudioVolume=" "
 # ========
 
 # Trackpad: enable tap to click for this user and for the login screen
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-sudo defaults write com.apple.AppleMultitouchTrackpad Clicking 1
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+# defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# sudo defaults write com.apple.AppleMultitouchTrackpad Clicking 1
 
 #Secondary click
 defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
@@ -54,7 +54,7 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
 # ======
 
 # Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
