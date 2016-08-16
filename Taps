@@ -2,10 +2,8 @@
 caskroom/versions
 
 ## Add tap for Pivotal
-pivotal/tap
+# pivotal/tap
 
-## Tap for packer
+## Tap for none open-source
 homebrew/binary
 
-## Tap for tmate
-nviennot/tmate
