@@ -14,15 +14,14 @@ virtualbox
 # dockertoolbox
 
 ## Coding
-# SourceTree
-#sourcetree
+github-desktop
 # Text editing
-#sublime-text3
-atom
-# Markdown
-#macdown
+sublime-text
+
 
 ## Desktop
+istat-menus
+alfred
 
 # QuickLook plugins
 qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
@@ -30,12 +29,6 @@ qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
 ## Media
 # Video player
 vlc
-# PDF reader
-#skim
-# Picture viewer
-# xee
-# Soundcloud client (yes, that's the correct spelling)
-soundcleod
 # Adobe Flash
 flash
 
@@ -44,9 +37,9 @@ flash
 screenflow
 # Note taking
 #evernote
-#nvalt
+
 # Collaboration
-#slack - use App store instead
+slack
 skype
 
 ## Social
@@ -57,8 +50,3 @@ skype
 # Online storage
 dropbox
 google-drive
-
-
-## Games
-# Steam client - now possible to stream games from the gaming rig to the Mac!
-steam
